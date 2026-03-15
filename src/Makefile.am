@@ -604,8 +604,6 @@ libzcash_a_CPPFLAGS += -fPIC -DBINARY_OUTPUT -DCURVE_ALT_BN128 -DBOOST_SPIRIT_TH
 
 libzcash_a_CXXFLAGS = $(SAN_CXXFLAGS) $(HARDENED_CXXFLAGS) -fwrapv -fno-strict-aliasing
 
-libzcash_a_LDFLAGS = $(SAN_LDFLAGS) $(HARDENED_LDFLAGS)
-
 libzcash_a_CPPFLAGS += -DMONTGOMERY_OUTPUT
 
 # bitcoinconsensus library #
