@@ -46,7 +46,10 @@
 #include <sstream>
 
 #include <boost/algorithm/string/replace.hpp>
+#include <boost/bind/bind.hpp>
 #include <boost/thread.hpp>
+
+using namespace boost::placeholders;
 
 #if defined(NDEBUG)
 # error "Bitcoin cannot be compiled without assertions."

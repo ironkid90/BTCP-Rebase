@@ -14,10 +14,12 @@
 #include <util.h>
 #include <utilstrencodings.h>
 
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <boost/signals2/signal.hpp>
 #include <boost/algorithm/string/classification.hpp>
 #include <boost/algorithm/string/split.hpp>
+
+using namespace boost::placeholders;
 
 #include <memory> // for unique_ptr
 #include <unordered_map>

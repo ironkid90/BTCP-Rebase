@@ -1,12 +1,12 @@
 package=rust
-$(package)_version=1.16.0
+$(package)_version=1.32.0
 $(package)_download_path=https://static.rust-lang.org/dist
 $(package)_file_name_linux=rust-$($(package)_version)-x86_64-unknown-linux-gnu.tar.gz
-$(package)_sha256_hash_linux=48621912c242753ba37cad5145df375eeba41c81079df46f93ffb4896542e8fd
+$(package)_sha256_hash_linux=e024698320d76b74daf0e6e71be3681a1e7923122e3ebd03673fcac3ecc23810
 $(package)_file_name_darwin=rust-$($(package)_version)-x86_64-apple-darwin.tar.gz
-$(package)_sha256_hash_darwin=2d08259ee038d3a2c77a93f1a31fc59e7a1d6d1bbfcba3dba3c8213b2e5d1926
+$(package)_sha256_hash_darwin=f0dfba507192f9b5c330b5984ba71d57d434475f3d62bd44a39201e36fa76304
 $(package)_file_name_mingw32=rust-mingw-$($(package)_version)-x86_64-pc-windows-gnu.tar.gz
-$(package)_sha256_hash_mingw32=4975e1f8eade1afca5dd17e71659f665f3bcc645733a545179c887543da1e27c
+$(package)_sha256_hash_mingw32=4f965889258a30900543074b83b49904b84d37f2b4abfe5b8a5aaa5ce081c509
 
 
 define $(package)_stage_cmds
